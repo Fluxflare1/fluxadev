@@ -1,16 +1,12 @@
-# Environment Setup
+# Fluxadev Setup Documentation
 
-## Backend
-1. Navigate to `backend/` and add Django dependencies to `requirements/base.txt`.
-2. Configure PostgreSQL in `settings.py`.
+## Prerequisites
+1. Install Docker and Docker Compose.
+2. Create a GitHub repository and clone it.
+3. Ensure `Node.js` and `npm` are installed for frontend setup.
 
-## Frontend
-1. Install React dependencies using `npm install`.
-2. Configure `.env` for environment-specific variables.
-
-## Mobile
-1. Install React Native CLI.
-2. Set up dependencies using `npm install`.
-
-## Docker
-1. Build containers using `docker-compose up`.
+## Steps to Set Up
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/fluxadev.git
+cd fluxadev
